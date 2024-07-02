@@ -107,6 +107,7 @@ app.get(
   })
 );
 
+// login post request
 app.post(
   "/login",
   passport.authenticate("local", {
@@ -114,6 +115,8 @@ app.post(
     failureRedirect: "/login",
   })
 );
+
+//Register post request
 
 app.post("/register", async (req, res) => {
   const email = req.body.username;
@@ -237,3 +240,5 @@ passport.deserializeUser((user, cb) => {
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
+
+
