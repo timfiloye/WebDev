@@ -27,6 +27,8 @@ app.use(express.static("public"));
 app.use(passport.initialize());
 app.use(passport.session());
 
+//Database
+
 const db = new pg.Client({
   user: process.env.PG_USER,
   host: process.env.PG_HOST,
@@ -56,6 +58,8 @@ app.get("/logout", (req, res) => {
     res.redirect("/");
   });
 });
+
+//App.get secrets
 
 app.get("/secrets", (req, res) => {
   console.log(req.user);
