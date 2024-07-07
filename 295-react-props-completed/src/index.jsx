@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// Creating the Props
+
 function Card(props) {
   return (
     <div>
