@@ -7,6 +7,7 @@ const customStyle = {
   border: "1px solid black",
 };
 
+//inline style 
 customStyle.color = "blue";
 
 ReactDOM.render(
