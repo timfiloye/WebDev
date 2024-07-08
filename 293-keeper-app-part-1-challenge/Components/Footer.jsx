@@ -13,3 +13,5 @@ function Footer() {
 };
 
 export default Footer;
+
+//Always keep the component folder inside the source "src" folder
