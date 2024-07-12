@@ -18,6 +18,8 @@ import emojipedia from "../emojipedia";
 //     "“You can do that!” or “I feel strong!” Arm with tense biceps. Also used in connection with doing sports, e.g. at the gym."
 // }
 
+//createEntry Function
+
 function createEntry(emojiTerm) {
   return (
     <Entry
