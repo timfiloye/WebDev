@@ -20,7 +20,7 @@ import emojipedia from "../emojipedia";
 
 //createEntry Function
 
-//The props doesn't have to match the name. E.g "emojipedia" doesn't have to be the props.
+//The props doesn't have to match the Array name. E.g "emojipedia" doesn't have to be the props.
 function createEntry(emojiTerm) {
   return (
     <Entry
