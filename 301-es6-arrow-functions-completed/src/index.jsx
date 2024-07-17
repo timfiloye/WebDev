@@ -12,10 +12,21 @@ ReactDOM.render(<App />, document.getElementById("root"));
 // const newNumbers = numbers.map( x => x * 2);
 
 ////Filter - Create a new array by keeping the items that return true.
+
 // const newNumbers = numbers.filter(num => num < 10);
 
+const newNumbers = numbers.filter((num) => {
+    num < 10
+});
+
 //Reduce - Accumulate a value by doing something to each item in an array.
-//const newNumber = numbers.reduce((accumulator, currentNumber) => accumulator + currentNumber);
+const newNumber = numbers.reduce((accumulator, currentNumber) => accumulator + currentNumber);
+
+//Both above and below are the same thing.
+
+const newNumber1 = numbers.reduce((accumulator, currentNumber) => {
+    accumulator + currentNumber
+});
 
 //Find - find the first item that matches from an array.
 // const newNumber = numbers.find(num => num > 10);
