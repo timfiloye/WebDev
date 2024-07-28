@@ -9,6 +9,8 @@ function App() {
     setInputText(newValue);
   }
 
+  // Learn more of this.
+  
   function addItem() {
     setItems(prevItems => {
       return [...prevItems, inputText];
