@@ -41,3 +41,7 @@ function App() {
 }
 
 export default App;
+
+// I went for the RCCG National convention for 8 days, so i've been away from code for a while now.
+
+// So by tomorrow 13th of August 2024, i'd return to my babies (my code💕)
